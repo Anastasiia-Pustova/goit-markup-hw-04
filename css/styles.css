@@ -334,12 +334,6 @@ border-radius: 0 0 4px 4px;
     padding: 100px 0;
 }
 
-.container-footer {
-    display: flex;
-    align-items: center;
-}
-    
-
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -357,7 +351,18 @@ color: #f4f4fd;
         max-width: 264px;
 }
 
-.footer-social {
+.social-list {
+    display: flex;
+    gap: 120 px;
+} 
 
+.social-container {
+    display: flex;
+    align-items: center;
 }
 
+
+.social-links {
+display: flex;
+align-items: flex-end;
+}
