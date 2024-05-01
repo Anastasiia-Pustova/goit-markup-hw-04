@@ -144,6 +144,7 @@ img {
         padding: 24px 0;
         display: block;
         position: relative;
+        transition: color250ms cubic-bezier(0.4, 0, 0.2, 1);
         
         
         
@@ -325,12 +326,12 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 }
 
 .social-links {
+    gap: 24px;
     display: flex;
     justify-content: center;
 }
 
 .social-links-item {
-    gap: 24px;
     width: 40px;
     height: 40px;
     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
