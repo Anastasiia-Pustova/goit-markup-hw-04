@@ -145,13 +145,14 @@ img {
         display: block;
         position: relative;
         
-        transition: color250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
         
        
            
 }
 .current {
     color: #404bbf;
+    transition: color250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -326,10 +327,10 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 24px;
 }
 
 .social-links-item {
+    gap: 24px;
     width: 40px;
     height: 40px;
     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
