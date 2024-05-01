@@ -89,6 +89,7 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    
 }
 
 .header-page-nav {
@@ -378,7 +379,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 
 
 
-.portfolio-content {
+.container-portfolio {
     padding: 32px 16px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
@@ -415,7 +416,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     height: 100%;
 }
 
-.container-portfolio {
+.portfolio-porfolio-hidden {
     position: relative;
     overflow: hidden;
 }
@@ -429,10 +430,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     padding: 100px 0;
 }
 
-.container {
-    display: flex;
-    align-items: baseline;   
-}
+
 .footer-container-logo-p {
 margin-right: 120px;
 }
